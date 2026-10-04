@@ -1,0 +1,1 @@
+SELECT "title" FROM "episodes" WHERE "season" < 2 ORDER BY "air_date" ASC, "episode_in_season" ASC;

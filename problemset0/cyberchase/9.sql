@@ -1,0 +1,1 @@
+SELECT COUNT("title") AS "Episodes that aired in first 6 years" FROM "episodes" WHERE "air_date" BETWEEN '2002-01-01' AND '2007-12-31' ORDER BY "air_date" ASC, "episode_in_season" ASC;

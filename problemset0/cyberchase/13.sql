@@ -1,0 +1,1 @@
+SELECT "title", "air_date" FROM "episodes" WHERE "air_date" LIKE '%-01-01' OR "air_date" LIKE '%-02-14' OR "air_date" LIKE '%-07-04' OR "air_date" LIKE '%-10-31' OR "air_date" LIKE '%-11-11' OR "air_date" LIKE '%-12-24' OR "air_date" LIKE '%-12-25' OR "air_date" LIKE '%-12-31';

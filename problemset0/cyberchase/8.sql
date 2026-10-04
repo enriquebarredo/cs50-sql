@@ -1,0 +1,1 @@
+SELECT COUNT("title") AS "Episodes that aired between 2018 and 2023 (inclusive)" FROM "episodes" WHERE "air_date" > '2018-00-00' AND "air_date" < '2024-00-00' ORDER BY "air_date" ASC, "episode_in_season" ASC;
